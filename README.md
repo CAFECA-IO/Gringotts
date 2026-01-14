@@ -1,11 +1,11 @@
 # Gringotts
-Gringotts 是一個去中心化的穩定幣鑄造協議，旨在將全球流動性引入台幣（TWD）生態系統。用戶可以透過存入 USDT 或 USDC，鑄造符合 ERC-3643 標準的 TWD 穩定幣，確保交易的安全與身分合規。
+Gringotts 是一個去中心化的穩定幣鑄造協議，旨在將全球穩定幣流動性引入 iSunCloud 生態系統。用戶可以透過存入 USDT 或 USDC，在 iSunCloud 鑄造符合 ERC-3643 標準的穩定幣，確保交易的安全與身分合規。
 
 ## 🚀 核心功能
 - 合規鑄造： 採用 ERC-3643 (T-REX) 標準，確保所有代幣轉移均在已驗證的身分（Verified Identities）之間進行。
 - 雙資產支持： 支持存入 USDT 或 USDC 作為抵押資產。
 - Alchemy 深度整合： 利用 Alchemy 提供的高效能節點、Webhooks 與智慧合約索引，實現即時入金監控。
-- 靈活贖回： 用戶可隨時將 TWD 穩定幣換回原始的加密資產並提領。
+- 靈活贖回： 用戶可隨時將穩定幣換回 USDT 或 USDC 並提領。
 
 ## 🛠 技術棧
 區塊鏈網路： iSunCloud (EVM 相容鏈)
