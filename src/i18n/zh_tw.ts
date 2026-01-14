@@ -1,0 +1,103 @@
+export const zhTw = {
+  HomePage: {
+    title: "古靈閣 - 機構級穩定幣協議",
+    description: "來自鏈上預言機和託管合作夥伴的直接反饋。"
+  },
+  Stats: {
+    liveMainnetData: "主網實時數據",
+    realTimeTransparency: "實時透明度",
+    description: "來自鏈上預言機和託管合作夥伴的直接反饋。",
+    tvl: "總鎖倉價值",
+    usdtCollateral: "USDT 抵押品",
+    usdcCollateral: "USDC 抵押品",
+    transactions: "24小時交易",
+    totalCount: "總筆數",
+    avgSize: "平均規模",
+    exchangeRates: "匯率",
+    usdtTwd: "USDT / TWD",
+    usdcTwd: "USDC / TWD"
+  },
+  Hero: {
+    compliantBadge: "完全合規且受監管的基礎設施",
+    titlePrefix: "機構級",
+    titleSuffix: "穩定幣鑄造協議",
+    description: "將全球流動性引入 EVM 生態系統。鑄造符合 ERC-3643 標準的穩定幣，由 USDT 和 USDC 1:1 支持，並具有自動化鏈上驗證。",
+    startMinting: "開始鑄造",
+    viewDocumentation: "查看文檔",
+    erc3643Title: "ERC-3643 標準",
+    erc3643Desc: "身份驗證的代幣轉移，確保絕對合規。",
+    backedTitle: "1:1 支持",
+    backedDesc: "完全由受監管託管的 USDT 和 USDC 抵押。",
+    crossChainTitle: "跨鏈",
+    crossChainDesc: "可部署在任何 EVM 鏈上，包括 iSunCloud 和 Ethereum。"
+  },
+  Navbar: {
+    features: "功能",
+    howItWorks: "運作方式",
+    compliance: "合規",
+    logIn: "登入",
+    launchApp: "啟動應用"
+  },
+  Footer: {
+    description: "EVM 鏈上機構級穩定幣鑄造的安全門戶。",
+    platform: "平台",
+    mintRedeem: "鑄造 / 贖回",
+    portfolio: "投資組合",
+    supportedChains: "支援鏈",
+    proofOfReserves: "儲備證明",
+    developers: "開發者",
+    documentation: "文檔",
+    apiReference: "API 參考",
+    smartContracts: "智能合約",
+    status: "狀態",
+    complianceTitle: "合規",
+    termsOfService: "服務條款",
+    privacyPolicy: "隱私政策",
+    amlKycPolicy: "AML / KYC 政策",
+    licenses: "許可證",
+    rightsReserved: "版權所有"
+  },
+  Features: {
+    title: "為什麼選擇古靈閣？",
+    description: "傳統金融可靠性與去中心化效率之間的橋樑。",
+    erc3643Title: "ERC-3643 標準",
+    erc3643Desc: "基於 T-REX 標準的許可代幣，確保所有轉移發生在已驗證身份之間。",
+    dualAssetTitle: "雙資產支持",
+    dualAssetDesc: "靈活的鑄造選項，由 USDT 和 USDC 獨立金庫支持，提供套利機會。",
+    instantSettlementTitle: "即時結算",
+    instantSettlementDesc: "利用 Alchemy 的高性能基礎設施，實現毫秒級存款檢測和鑄造。",
+    globalComplianceTitle: "全球合規",
+    globalComplianceDesc: "通過 CAFECA 集成 AML/KYC 檢查，確保跨多個管轄區的完全監管合規。"
+  },
+  TransactionFlow: {
+    title: "運作方式",
+    description: "自動化、透明且安全的鑄造流程。",
+    step1Title: "1. 請求地址",
+    step1Desc: "用戶通過 dApp 請求唯一的存款地址。",
+    step2Title: "2. 存入資產",
+    step2Desc: "用戶將 USDT 或 USDC 轉入定義的金庫地址。",
+    step3Title: "3. 自動驗證",
+    step3Desc: "Alchemy Webhooks 檢測交易並觸發驗證。",
+    step4Title: "4. 合規鑄造",
+    step4Desc: "協議驗證身份 (ERC-3643) 並 1:1 鑄造穩定幣。",
+    step5Title: "5. 使用或贖回",
+    step5Desc: "在生態系統中交易或隨時贖回為原始資產。"
+  },
+  Compliance: {
+    title: "合規優先的架構",
+    descriptionStart: "我們不僅僅是附加合規性；我們將其構建到協議層中。由 ",
+    descriptionSpan: "iSunFA",
+    descriptionEnd: " 技術支持，ERC-3643 的實施提供了機構級的保證。",
+    check1: "每次錢包交互的自動 AML 篩查",
+    check2: "實時制裁名單監控",
+    check3: "通過靈魂綁定代幣進行鏈上身份驗證",
+    check4: "詳細的監管報告審計軌跡",
+    viewReports: "查看合規報告",
+    legalTitle: "法律框架",
+    legalDesc: "符合包括 MICA 支持在內的全球穩定幣法規。",
+    securityTitle: "金庫安全",
+    securityDesc: "資產由合格託管人持有多重簽名保護。",
+    reservesTitle: "儲備證明",
+    reservesDesc: "集成 BAIFA 的鏈上供應與鏈下抵押品的實時驗證。"
+  }
+};

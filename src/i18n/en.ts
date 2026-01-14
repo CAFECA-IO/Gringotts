@@ -1,0 +1,103 @@
+export const en = {
+  HomePage: {
+    title: "Gringotts - Institutional Stablecoin Protocol",
+    description: "Direct feedback from on-chain oracles and custody partners."
+  },
+  Stats: {
+    liveMainnetData: "LIVE MAINNET DATA",
+    realTimeTransparency: "Real-Time Transparency",
+    description: "Direct feedback from on-chain oracles and custody partners.",
+    tvl: "Total Value Locked",
+    usdtCollateral: "USDT Collateral",
+    usdcCollateral: "USDC Collateral",
+    transactions: "24h Transactions",
+    totalCount: "Total Count",
+    avgSize: "Avg. Size",
+    exchangeRates: "Exchange Rates",
+    usdtTwd: "USDT / TWD",
+    usdcTwd: "USDC / TWD"
+  },
+  Hero: {
+    compliantBadge: "Fully Compliant & Regulated Infrastructure",
+    titlePrefix: "Institutional Grade",
+    titleSuffix: "Stablecoin Minter",
+    description: "Bring global liquidity to the EVM ecosystem. Mint ERC-3643 compliant stablecoins backed 1:1 by USDT & USDC with automated on-chain verification.",
+    startMinting: "Start Minting",
+    viewDocumentation: "View Documentation",
+    erc3643Title: "ERC-3643 Standard",
+    erc3643Desc: "Identity-verified token transfers ensuring absolute compliance.",
+    backedTitle: "1:1 Backed",
+    backedDesc: "Fully collateralized by USDT and USDC held in regulated custody.",
+    crossChainTitle: "Cross-Chain",
+    crossChainDesc: "Deployable on any EVM chain including iSunCloud and Ethereum."
+  },
+  Navbar: {
+    features: "Features",
+    howItWorks: "How it works",
+    compliance: "Compliance",
+    logIn: "Log in",
+    launchApp: "Launch App"
+  },
+  Footer: {
+    description: "The secure gateway for institutional stablecoin minting on EVM chains.",
+    platform: "Platform",
+    mintRedeem: "Mint / Redeem",
+    portfolio: "Portfolio",
+    supportedChains: "Supported Chains",
+    proofOfReserves: "Proof of Reserves",
+    developers: "Developers",
+    documentation: "Documentation",
+    apiReference: "API Reference",
+    smartContracts: "Smart Contracts",
+    status: "Status",
+    complianceTitle: "Compliance",
+    termsOfService: "Terms of Service",
+    privacyPolicy: "Privacy Policy",
+    amlKycPolicy: "AML / KYC Policy",
+    licenses: "Licenses",
+    rightsReserved: "All rights reserved."
+  },
+  Features: {
+    title: "Why Choose Gringotts?",
+    description: "The bridge between traditional finance reliability and decentralized efficiency.",
+    erc3643Title: "ERC-3643 Standard",
+    erc3643Desc: "Built on the T-REX standard for permissioned tokens, ensuring all transfers occur between verified identities.",
+    dualAssetTitle: "Dual Asset Support",
+    dualAssetDesc: "Flexible minting options backed by distinct vaults for USDT and USDC, providing arbitrage opportunities.",
+    instantSettlementTitle: "Instant Settlement",
+    instantSettlementDesc: "Leveraging Alchemy's high-performance infrastructure for millisecond-latency deposit detection and minting.",
+    globalComplianceTitle: "Global Compliance",
+    globalComplianceDesc: "Integrated AML/KYC checks via CAFECA ensure full regulatory adherence across multiple jurisdictions."
+  },
+  TransactionFlow: {
+    title: "How It Works",
+    description: "Automated, transparent, and secure minting process.",
+    step1Title: "1. Request Address",
+    step1Desc: "User requests a unique deposit address through the dApp.",
+    step2Title: "2. Deposit Assets",
+    step2Desc: "User transfers USDT or USDC to the defined vault address.",
+    step3Title: "3. Auto-Verification",
+    step3Desc: "Alchemy Webhooks detect the transaction and trigger validation.",
+    step4Title: "4. Compliant Mint",
+    step4Desc: "Protocol verifies identity (ERC-3643) and mints 1:1 stablecoins.",
+    step5Title: "5. Use or Redeem",
+    step5Desc: "Trade in the ecosystem or redeem for original assets anytime."
+  },
+  Compliance: {
+    title: "Compliance First Architecture",
+    descriptionStart: "We don't just bolt on compliance; we build it into the protocol layer. Powered by ",
+    descriptionSpan: "iSunFA",
+    descriptionEnd: " technology, implementation of ERC-3643 provides institutional-grade assurance.",
+    check1: "Automated AML screening for every wallet interaction",
+    check2: "Real-time sanctions list monitoring",
+    check3: "On-chain identity verification via Soulbound Tokens",
+    check4: "Detailed regulatory reporting audit trails",
+    viewReports: "View Compliance Reports",
+    legalTitle: "Legal Framework",
+    legalDesc: "Aligned with global stablecoin regulations including MICA support.",
+    securityTitle: "Vault Security",
+    securityDesc: "Assets held in qualified custody with multi-sig protection.",
+    reservesTitle: "Proof of Reserves",
+    reservesDesc: "BAIFA-integrated real-time verification of on-chain supply versus off-chain collateral."
+  }
+};

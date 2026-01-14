@@ -1,0 +1,103 @@
+export const ko = {
+  HomePage: {
+    title: "Gringotts - Institutional Stablecoin Protocol",
+    description: "Direct feedback from on-chain oracles and custody partners."
+  },
+  Stats: {
+    liveMainnetData: "실시간 메인넷 데이터",
+    realTimeTransparency: "실시간 투명성",
+    description: "온체인 오라클 및 수탁 파트너의 직접적인 피드백.",
+    tvl: "총 예치 자산 (TVL)",
+    usdtCollateral: "USDT 담보",
+    usdcCollateral: "USDC 담보",
+    transactions: "24시간 거래",
+    totalCount: "총 횟수",
+    avgSize: "평균 규모",
+    exchangeRates: "환율",
+    usdtTwd: "USDT / TWD",
+    usdcTwd: "USDC / TWD"
+  },
+  Hero: {
+    compliantBadge: "완벽하게 준수하고 규제된 인프라",
+    titlePrefix: "기관 등급",
+    titleSuffix: "스테이블코인 민터",
+    description: "EVM 생태계에 글로벌 유동성을 제공합니다. 자동화된 온체인 검증을 통해 USDT 및 USDC로 1:1 지원되는 ERC-3643 준수 스테이블코인을 발행하세요.",
+    startMinting: "민팅 시작",
+    viewDocumentation: "문서 보기",
+    erc3643Title: "ERC-3643 표준",
+    erc3643Desc: "절대적인 규정 준수를 보장하는 신원 확인 토큰 전송.",
+    backedTitle: "1:1 지원",
+    backedDesc: "규제된 수탁보관소에 보관된 USDT 및 USDC로 완전히 담보됨.",
+    crossChainTitle: "크로스 체인",
+    crossChainDesc: "iSunCloud 및 Ethereum을 포함한 모든 EVM 체인에 배포 가능."
+  },
+  Navbar: {
+    features: "기능",
+    howItWorks: "작동 방식",
+    compliance: "규정 준수",
+    logIn: "로그인",
+    launchApp: "앱 실행"
+  },
+  Footer: {
+    description: "EVM 체인에서 기관용 스테이블코인 발행을 위한 안전한 게이트웨이.",
+    platform: "플랫폼",
+    mintRedeem: "발행 / 상환",
+    portfolio: "포트폴리오",
+    supportedChains: "지원 체인",
+    proofOfReserves: "준비금 증명",
+    developers: "개발자",
+    documentation: "문서",
+    apiReference: "API 참조",
+    smartContracts: "스마트 계약",
+    status: "상태",
+    complianceTitle: "규정 준수",
+    termsOfService: "서비스 약관",
+    privacyPolicy: "개인정보 보호정책",
+    amlKycPolicy: "AML / KYC 정책",
+    licenses: "라이선스",
+    rightsReserved: "자세한 권리 소유"
+  },
+  Features: {
+    title: "왜 Gringotts인가?",
+    description: "전통 금융의 신뢰성과 탈중앙화 효율성 간의 가교.",
+    erc3643Title: "ERC-3643 표준",
+    erc3643Desc: "허가된 토큰을 위한 T-REX 표준을 기반으로 구축되어 모든 전송이 검증된 신원 간에 발생하도록 보장합니다.",
+    dualAssetTitle: "듀얼 자산 지원",
+    dualAssetDesc: "USDT 및 USDC를 위한 별도 보관소로 지원되는 유연한 발행 옵션으로 차익 거래 기회를 제공합니다.",
+    instantSettlementTitle: "즉시 결제",
+    instantSettlementDesc: "밀리초 단위의 입금 감지 및 발행을 위해 Alchemy의 고성능 인프라를 활용합니다.",
+    globalComplianceTitle: "글로벌 규정 준수",
+    globalComplianceDesc: "CAFECA를 통한 통합 AML/KYC 확인으로 여러 관할권에 걸쳐 완전한 규정 준수를 보장합니다."
+  },
+  TransactionFlow: {
+    title: "작동 방식",
+    description: "자동화되고 투명하며 안전한 발행 프로세스.",
+    step1Title: "1. 주소 요청",
+    step1Desc: "사용자는 dApp을 통해 고유한 입금 주소를 요청합니다.",
+    step2Title: "2. 자산 입금",
+    step2Desc: "사용자는 정의된 보관소 주소로 USDT 또는 USDC를 전송합니다.",
+    step3Title: "3. 자동 검증",
+    step3Desc: "Alchemy Webhooks는 거래를 감지하고 검증을 트리거합니다.",
+    step4Title: "4. 규정 준수 발행",
+    step4Desc: "프로토콜은 신원(ERC-3643)을 확인하고 1:1 스테이블코인을 발행합니다.",
+    step5Title: "5. 사용 또는 상환",
+    step5Desc: "생태계에서 거래하거나 언제든지 원래 자산으로 상환할 수 있습니다."
+  },
+  Compliance: {
+    title: "규정 준수 우선 아키텍처",
+    descriptionStart: "우리는 단순히 규정 준수를 덧붙이는 것이 아니라, 프로토콜 레이어에 구축합니다. ",
+    descriptionSpan: "iSunFA",
+    descriptionEnd: " 기술로 구동되는 ERC-3643의 구현은 기관 등급의 보증을 제공합니다.",
+    check1: "모든 지갑 상호 작용에 대한 자동 자금 세탁 방지(AML) 심사",
+    check2: "실시간 제재 목록 모니터링",
+    check3: "Soulbound 토큰을 통한 온체인 신원 확인",
+    check4: "상세한 규제 보고 감사 추적",
+    viewReports: "규정 준수 보고서 보기",
+    legalTitle: "법적 프레임워크",
+    legalDesc: "MICA 지원을 포함한 글로벌 스테이블코인 규정 준수.",
+    securityTitle: "보관소 보안",
+    securityDesc: "다중 서명 보호 기능을 갖춘 적격 수탁 기관에 보관된 자산.",
+    reservesTitle: "준비금 증명",
+    reservesDesc: "BAIFA 통합을 통한 온체인 공급 대 오프체인 담보의 실시간 검증."
+  }
+};

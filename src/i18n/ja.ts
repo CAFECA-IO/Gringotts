@@ -1,0 +1,103 @@
+export const ja = {
+  HomePage: {
+    title: "Gringotts - Institutional Stablecoin Protocol",
+    description: "Direct feedback from on-chain oracles and custody partners."
+  },
+  Stats: {
+    liveMainnetData: "ライブメインネットデータ",
+    realTimeTransparency: "リアルタイムの透明性",
+    description: "オンチェーンオラクルとカストディパートナーからの直接フィードバック。",
+    tvl: "ロックされた総価値 (TVL)",
+    usdtCollateral: "USDT担保",
+    usdcCollateral: "USDC担保",
+    transactions: "24時間取引",
+    totalCount: "総数",
+    avgSize: "平均サイズ",
+    exchangeRates: "為替レート",
+    usdtTwd: "USDT / TWD",
+    usdcTwd: "USDC / TWD"
+  },
+  Hero: {
+    compliantBadge: "完全に準拠し規制されたインフラストラクチャ",
+    titlePrefix: "機関グレード",
+    titleSuffix: "ステーブルコインミンター",
+    description: "グローバルな流動性をEVMエコシステムにもたらします。自動化されたオンチェーン検証により、USDTとUSDCで1:1に裏付けられたERC-3643準拠のステーブルコインを作成します。",
+    startMinting: "ミンティングを開始",
+    viewDocumentation: "ドキュメントを見る",
+    erc3643Title: "ERC-3643標準",
+    erc3643Desc: "絶対的なコンプライアンスを保証する本人確認済みトークン転送。",
+    backedTitle: "1:1の裏付け",
+    backedDesc: "規制されたカストディにあるUSDTおよびUSDCによって完全に担保されています。",
+    crossChainTitle: "クロスチェーン",
+    crossChainDesc: "iSunCloudやEthereumを含むあらゆるEVMチェーンに展開可能。"
+  },
+  Navbar: {
+    features: "機能",
+    howItWorks: "仕組み",
+    compliance: "コンプライアンス",
+    logIn: "ログイン",
+    launchApp: "アプリを起動"
+  },
+  Footer: {
+    description: "EVMチェーン上での機関向けステーブルコインミンティングのための安全なゲートウェイ。",
+    platform: "プラットフォーム",
+    mintRedeem: "ミント /償還",
+    portfolio: "ポートフォリオ",
+    supportedChains: "対応チェーン",
+    proofOfReserves: "準備金の証明",
+    developers: "開発者",
+    documentation: "ドキュメント",
+    apiReference: "APIリファレンス",
+    smartContracts: "スマートコントラクト",
+    status: "ステータス",
+    complianceTitle: "コンプライアンス",
+    termsOfService: "利用規約",
+    privacyPolicy: "プライバシーポリシー",
+    amlKycPolicy: "AML / KYCポリシー",
+    licenses: "ライセンス",
+    rightsReserved: "全著作権所有"
+  },
+  Features: {
+    title: "なぜグリンゴッツを選ぶのか？",
+    description: "伝統的な金融の信頼性と分散型の効率性の架け橋。",
+    erc3643Title: "ERC-3643標準",
+    erc3643Desc: "許可型トークンのT-REX標準に基づいて構築されており、すべての転送が検証済みのID間で行われることを保証します。",
+    dualAssetTitle: "デュアルアセットサポート",
+    dualAssetDesc: "USDTとUSDCの個別の保管庫に裏打ちされた柔軟なミンティングオプションで、裁定取引の機会を提供します。",
+    instantSettlementTitle: "即時決済",
+    instantSettlementDesc: "Alchemyの高性能インフラストラクチャを活用して、ミリ秒単位の入金検出とミンティングを実現します。",
+    globalComplianceTitle: "グローバルコンプライアンス",
+    globalComplianceDesc: "CAFECAを介した統合AML/KYCチェックにより、複数の管轄区域にわたる完全な規制遵守を保証します。"
+  },
+  TransactionFlow: {
+    title: "仕組み",
+    description: "自動化され、透明性が高く、安全なミンティングプロセス。",
+    step1Title: "1. アドレスをリクエスト",
+    step1Desc: "ユーザーはdAppを通じてユニークな入金アドレスをリクエストします。",
+    step2Title: "2. 資産を入金",
+    step2Desc: "ユーザーはUSDTまたはUSDCを定義された保管庫アドレスに転送します。",
+    step3Title: "3. 自動検証",
+    step3Desc: "Alchemy Webhooksがトランザクションを検出し、検証をトリガーします。",
+    step4Title: "4. コンプライアンスミント",
+    step4Desc: "プロトコルはID (ERC-3643) を検証し、ステーブルコインを1:1でミントします。",
+    step5Title: "5. 使用または償還",
+    step5Desc: "エコシステム内で取引するか、いつでも元の資産に償還できます。"
+  },
+  Compliance: {
+    title: "コンプライアンスファースト・アーキテクチャ",
+    descriptionStart: "私たちは単にコンプライアンスを付け加えるだけではありません。プロトコルレイヤーに組み込みます。",
+    descriptionSpan: "iSunFA",
+    descriptionEnd: "技術を活用し、ERC-3643の実装により機関グレードの保証を提供します。",
+    check1: "すべてのウォレットインタラクションに対する自動AMLスクリーニング",
+    check2: "リアルタイムの制裁リスト監視",
+    check3: "ソウルバウンドトークンによるオンチェーン本人確認",
+    check4: "詳細な規制報告監査証跡",
+    viewReports: "コンプライアンスレポートを表示",
+    legalTitle: "法的枠組み",
+    legalDesc: "MICAサポートを含む世界のステーブルコイン規制に準拠。",
+    securityTitle: "保管庫のセキュリティ",
+    securityDesc: "マルチシグ保護を備えた適格なカストディにある資産。",
+    reservesTitle: "準備金の証明",
+    reservesDesc: "BAIFA統合によるオンチェーン供給とオフチェーン担保のリアルタイム検証。"
+  }
+};
