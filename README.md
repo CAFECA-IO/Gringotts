@@ -40,18 +40,11 @@ cd Gringotts
 npm install
 ```
 
-### 環境設定
-建立 .env 檔案
-```env
-ALCHEMY_API_KEY=您的API金鑰
-NETWORK=isuncloud
-PRIVATE_KEY=您的錢包私鑰
-```
-
 ### 啟動
 ```shell
 npm start
 ```
+首次啟動時，請按照系統引導設定。
 
 ### 授權條款
 本專案採用 MIT 授權條款，詳見 LICENSE 檔案。

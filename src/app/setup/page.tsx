@@ -392,22 +392,22 @@ export default function SetupPage() {
               {/* Info: (20260115 - Luphia) Contracts List */}
               <div className="space-y-3">
                 {contracts.map((contract, index) => (
-                  <div key={contract.key} className="flex items-center justify-between p-4 bg-zinc-800/30 border border-white/5 rounded-lg">
+                  <div key={contract.key} className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-zinc-800/30 border border-white/5 rounded-lg gap-4 sm:gap-0">
                     <div className="flex flex-col">
                       <span className="font-medium text-zinc-200">{contract.name}</span>
-                      <span className="text-xs text-zinc-500 font-mono">
+                      <span className="text-xs text-zinc-500 font-mono break-all">
                         {contract.status === 'deployed' ? contract.address : 'Not Deployed'}
                       </span>
                     </div>
                     {contract.status === 'deployed' ? (
-                      <div className="h-8 w-8 rounded-full bg-emerald-500/20 text-emerald-500 flex items-center justify-center">
+                      <div className="h-8 w-8 rounded-full bg-emerald-500/20 text-emerald-500 flex items-center justify-center self-end sm:self-auto">
                         <Check className="h-4 w-4" />
                       </div>
                     ) : (
                       <button
                         onClick={() => deployContract(index)}
                         disabled={contract.status === 'deploying'}
-                        className="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 text-white text-xs font-bold rounded-lg transition-colors disabled:opacity-50"
+                        className="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 text-white text-xs font-bold rounded-lg transition-colors disabled:opacity-50 self-end sm:self-auto"
                       >
                         {contract.status === 'deploying' ? <Loader2 className="h-4 w-4 animate-spin" /> : t("Setup.deploy")}
                       </button>
